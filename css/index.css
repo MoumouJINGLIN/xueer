@@ -1,0 +1,444 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.arrow-l {
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    background: rgba(0, 0, 0, .2);
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.arrow-r {
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    background: rgba(0, 0, 0, .2);
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.circle {
+    position: absolute;
+    top: 95%;
+    left: 295px;
+    width: 100px;
+    height: 10px;
+    /* background: rgba(0, 0, 0, .2); */
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 2px 6px;
+}
+
+.circle .current {
+    background-color: red;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd .more {
+    float: right;
+}
+
+.news-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    /* background-color: purple; */
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-color: pink;
+    margin-top: 12px;
+    background: url(../images/icon.png) no-repeat;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+
+/* 推荐模块 */
+
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+
+/* 卡片模块 */
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 img,
+.col_329 img,
+.col_221 img,
+.col_219 img {
+    width: 170px;
+    height: 240px;
+}
+
+.col_210 img:hover,
+.col_329 img:hover,
+.col_221 img:hover,
+.col_219 img:hover {
+    transition: all 0.5s;
+    transform: scale(2);
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* 导航栏附页 */
+
+.ddd,
+.ddd1,
+.ddd2,
+.ddd3,
+.ddd4,
+.ddd5,
+.ddd6,
+.ddd7,
+.ddd8,
+.ddd9,
+.ddd10,
+.ddd11,
+.ddd12,
+.ddd13,
+.ddd14 {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #c81623;
+    z-index: 1;
+    font-size: 15px;
+}
+
+.ddd {
+    top: 183px;
+    left: 562px;
+}
+
+.ddd1 {
+    top: 213px;
+    left: 562px;
+}
+
+.ddd2 {
+    top: 243px;
+    left: 562px;
+}
+
+.ddd3 {
+    top: 273px;
+    left: 562px;
+}
+
+.ddd4 {
+    top: 303px;
+    left: 562px;
+}
+
+.ddd5 {
+    top: 333px;
+    left: 562px;
+}
+
+.ddd6 {
+    top: 353px;
+    left: 562px;
+}
+
+.ddd7 {
+    top: 383px;
+    left: 562px;
+}
+
+.ddd8 {
+    top: 413px;
+    left: 562px;
+}
+
+.ddd9 {
+    top: 483px;
+    left: 562px;
+}
+
+.ddd10 {
+    top: 473px;
+    left: 562px;
+}
+
+.ddd11 {
+    top: 503px;
+    left: 562px;
+}
+
+.ddd12 {
+    top: 533px;
+    left: 562px;
+}
+
+.ddd13 {
+    top: 563px;
+    left: 562px;
+}
+
+.ddd14 {
+    top: 593px;
+    left: 562px;
+}
+
+.ddd ul li,
+.ddd1 ul li,
+.ddd2 ul li,
+.ddd3 ul li,
+.ddd4 ul li,
+.ddd5 ul li,
+.ddd6 ul li,
+.ddd7 ul li,
+.ddd8 ul li,
+.ddd9 ul li,
+.ddd10 ul li,
+.ddd11 ul li,
+.ddd12 ul li,
+.ddd13 ul li,
+.ddd14 ul li {
+    height: 30px;
+    padding: 0 0 0 15px;
+    margin: 10px 0 0 0;
+}
+
+.ddd ul li a,
+.ddd1 ul li a,
+.ddd2 ul li a,
+.ddd3 ul li a,
+.ddd4 ul li a,
+.ddd5 ul li a,
+.ddd6 ul li a,
+.ddd7 ul li a,
+.ddd8 ul li a,
+.ddd9 ul li a,
+.ddd10 ul li a,
+.ddd11 ul li a,
+.ddd12 ul li a,
+.ddd13 ul li a,
+.ddd14 ul li a {
+    color: #fff;
+}
+
+.ddd ul li:hover {
+    background-color: #fff;
+}
+
+.ddd ul li:hover a {
+    color: #c81623;
+}
