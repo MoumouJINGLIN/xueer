@@ -315,9 +315,9 @@
 .ddd14 {
     display: none;
     position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color: #c81623;
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
     z-index: 1;
     font-size: 15px;
 }
@@ -432,7 +432,7 @@
 .ddd12 ul li a,
 .ddd13 ul li a,
 .ddd14 ul li a {
-    color: #fff;
+    color: black;
 }
 
 .ddd ul li:hover {
